@@ -12,6 +12,15 @@ public class CoolCollections {
         Integer element = numbers2.get(0);
         System.out.println(element);
 
+        System.out.println("using Collection forEach() method - and method reference");
+        numbers2.forEach(System.out::println);
+
+        System.out.println("now using a lambda function..");
+        numbers2.forEach(c -> System.out.println(c));
+
+        for (Integer n: numbers2)
+            System.out.println(n);
+
         // shortening generics
         // via diamond operator
         
