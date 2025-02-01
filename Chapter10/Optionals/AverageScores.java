@@ -28,5 +28,18 @@ public class AverageScores {
             System.out.println(opt.get()); // 95.0
 
 
+        // ofNullable() - factory method java provides to cater for (value == null) ? Optional.empty() : Optional.of(value);
+        Optional o = Optional.ofNullable(null);
+        System.out.println(o);
+
+
+        // Dealing with an Empty Optional p557
+        System.out.println(o.orElse(Double.NaN));
+        System.out.println(o.orElseGet(() -> Math.random()));
+
+        // have the code throw an `java.util.NoSuchElementException` exception if the Optional is empty
+        System.out.println(o.orElseThrow());
+
+
     }
 }
