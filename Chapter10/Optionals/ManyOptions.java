@@ -7,7 +7,7 @@ public class ManyOptions {
      */
 
     /*
-     * get() interface method. throws an exception if Optional is empty, else returns the value
+     * get() instance method. throws an exception if Optional is empty, else returns the value
      *
      */
     public static void getOptional() {
