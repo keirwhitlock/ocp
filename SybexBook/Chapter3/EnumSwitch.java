@@ -1,6 +1,11 @@
 public class EnumSwitch {
 
-    enum Season { SPRING, SUMMER, FALL, WINTER } // optional ; ?
+    enum Season { 
+        SPRING, 
+        SUMMER, 
+        FALL, 
+        WINTER 
+    } // optional ; ?  - seems to be
 
     public static void main(String[] args){
 
