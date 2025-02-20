@@ -24,6 +24,7 @@ public class GoCompare {
         // mismatch() p198
 
         System.out.println(Arrays.mismatch(new int[] {1}, new int[] {1})); // -1 as both are the same
-        System.out.println(Arrays.mismatch(new int[] {1}, new int[] {1, 2})); 
+        System.out.println(Arrays.mismatch(new int[] {1}, new int[] {1, 2})); // 1 as the value at index 1 is where they _start_ to differ
+        
     }
 }
