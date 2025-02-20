@@ -41,5 +41,6 @@ public class ArraysForToday {
         System.out.println(Arrays.binarySearch(sorted, 5)); 
         System.out.println(Arrays.binarySearch(sorted, 0)); 
         System.out.println(Arrays.binarySearch(sorted, 3)); 
+
     }
 }
