@@ -33,8 +33,8 @@ public class ArraysForToday {
         Arrays.sort(sorted);
 
         System.out.println(Arrays.toString(sorted));
-        for (int i : sorted) {
-            System.out.println(i-1 + " : " + i);
+        for (int i = 0; i < sorted.length; i++) {
+            System.out.println(String.format("Inx %d - %d", i, sorted[i]));
         }
 
         // searching NB: requires a sorted array first, like above ^
