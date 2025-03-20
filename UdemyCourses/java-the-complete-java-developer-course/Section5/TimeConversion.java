@@ -22,6 +22,7 @@ public class TimeConversion {
 
 
     public static void main(String args[]) {
+        System.out.println(TimeConversion.getDurationString(145));
         System.out.println(TimeConversion.getDurationString(Integer.parseInt(args[0])));
     }
 }
