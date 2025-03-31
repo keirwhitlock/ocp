@@ -9,6 +9,21 @@ public class Account {
     private double balance=0.0;
     private int accountNumber = generateAccountNumber();
 
+    public Account(){
+
+        this("Default name", "Default email", 02340123456); // this() must be first
+
+        System.out.println("Empty constructor called");
+    }
+
+    public Account(String customerName, String email, int phoneNumber){
+        System.out.println("Account constructor called.");
+
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public String getCusomerName(){
         return customerName;
     }
